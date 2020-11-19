@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   color: #fceef5;
+  zoom :100%;
 }
 h1 {
   color: #66bfbf;
@@ -150,6 +151,6 @@ a:hover {
 @media (max-width: 700px) {
   .card{
     margin: auto;
-    width: 85%;
+    width: 350px;
   }
 
