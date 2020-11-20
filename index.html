@@ -32,18 +32,35 @@
               <label for="name">Student Details</label><br>
               <input type="text" name="name" class="form-control required fl-input" placeholder="Student Name" required><br>
               <input type="date" name="dob" class="form-control required fl-input" placeholder="Student DOB" required><br>
-              <input type="text" name="gender" class="form-control required fl-input" placeholder="Gender" required><br>
+
+              <label for="name">Gender</label> <br>
+                              <input type="radio" id="male" name="gender" value="male" class="">
+              <label for="male">Male</label>
+
+              <input type="radio" id="female" name="gender" value="female" class="">
+              <label for="female">Female</label>             <br>
+              <br>
+
+              <input type="number" name="age" class="form-control required fl-input" placeholder="Student Age" required><br>
+              <input type="text" name="grade" class="form-control required fl-input" placeholder="Student Grade" required><br>
               <input type="email" name="email" class="form-control required fl-input" placeholder="Email" required><br>
+              <input type="tel" name="phone" class="form-control required fl-input" placeholder="Phone Number" required><br>
+              <input type="text" name="place" class="form-control required fl-input" placeholder="Place" required><br>
+              <input type="text" name="country" class="form-control required fl-input" placeholder="Country" required><br>
+              <label for="name">Courses</label><br>
 
-              <label for="email">Father</label><br>
+              <select name="course" id="course" class="form-control required fl-input">
+                <option value="Vedic Maths">Vedic Maths</option>
+                <option value="Abacus">Abacus</option>
+                <option value="Personal Classes">Personal Classes</option>
+                <option value="Handwriting Classes">Handwriting Classes</option>
+              </select> <br>
+              <label for="email">Parents Details</label><br>
               <input type="text" name="fathername" class="form-control required fl-input" placeholder="Father Name" required><br>
-              <input type="tel" name="fatherphone" class="form-control required fl-input" placeholder="Father's Phone" required><br>
-              <input type="text" name="fatherjob" class="form-control required fl-input" placeholder="Father Occupation" required><br>
-
-              <label for="email">Mother</label><br>
               <input type="text" name="mothername" class="form-control required fl-input" placeholder="Mother Name" required><br>
-              <input type="tel" name="motherphone" class="form-control required fl-input" placeholder="Mother's Phone" required><br>
-              <input type="text" name="motherjob" class="form-control required fl-input" placeholder="Mother Occupation" required><br>
+              <input type="tel" name="parentphone" class="form-control required fl-input" placeholder="Parent's Phone" required><br>
+              <input type="text" name="parentjob" class="form-control required fl-input" placeholder="Parent's Occupation" required><br>
+
 
               <label for="name">Siblings</label><br>
               <input type="text" name="siblingname1" class="form-control required fl-input" placeholder="Sibling Name 1"><br>
@@ -52,7 +69,7 @@
               <input type="text" name="siblingname2" class="form-control required fl-input" placeholder="Sibling Name 2"><br>
               <input type="number" name="siblingage2" class="form-control required fl-input" placeholder="Sibling Age 2"><br>
 
-              <input type="submit" name="submit" value="Send" class="btn btn-success">
+              <input type="submit" name="submit" value="Send" class="sub-btn">
               
             </form>
           </div>
