@@ -9,7 +9,7 @@
 		$age=$_POST['age'];
 		$grade=$_POST['grade'];
 		$email=$_POST['email'];
-		$phone=$_POST['phone'];
+		// $phone=$_POST['phone'];
 		$alterphone=$_POST['alterphone'];
 		$currentlevel=$_POST['currentlevel'];
 		$place=$_POST['place'];
@@ -62,7 +62,7 @@
 
         $to='fazalulabid007@gmail.com'; 
         $subject='Registration Form';
-        $message="Name :".$name."\n"."Date of Birth :".$dob."\n"."Gender :".$gender."\n"."Age :".$age."\n"."Grade :".$grade."\n"."Email :".$email."\n"."Phone Number :".$phone."\n"."Phone Number (Optional):".$alterphone."\n"."Current Level (Existing Students Only):".$currentlevel."\n"."Place :".$place."\n"."Country :".$country."\n"."Course :".$course."\n"."Parent Name :".$parentname."\n"."Parent's Phone :".$parentphone."\n"."Parent's Occupation :".$parentjob."\n"."Sibling 1 Name:".$siblingname1."\n"."Sibling 1 Age :".$siblingage1."\n"."Sibling 2 Name :".$siblingname2."\n"."Sibling 2 Age :".$siblingage2."\n";
+        $message="Name :".$name."\n"."Date of Birth :".$dob."\n"."Gender :".$gender."\n"."Age :".$age."\n"."Grade :".$grade."\n"."Email :".$email."\n"."Phone Number (Optional):".$alterphone."\n"."Current Level (Existing Students Only):".$currentlevel."\n"."Place :".$place."\n"."Country :".$country."\n"."Course :".$course."\n"."Parent Name :".$parentname."\n"."Parent's Phone :".$parentphone."\n"."Parent's Occupation :".$parentjob."\n"."Sibling 1 Name:".$siblingname1."\n"."Sibling 1 Age :".$siblingage1."\n"."Sibling 2 Name :".$siblingname2."\n"."Sibling 2 Age :".$siblingage2."\n";
         $headers="From: ".$email;
     
         if(mail($to, $subject, $message, $headers)){
