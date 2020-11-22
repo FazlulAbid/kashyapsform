@@ -2,18 +2,18 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  color: #fceef5;
-  zoom :120%;
+  color: #ffb380;
+  zoom: 120%;
 }
 h1 {
-  color: #66bfbf;
+  color: #cc5200;
   font-size: 60px;
   margin-top: 50px;
   margin-bottom: -30px;
   font-family: "Montseratt", sans-serif;
 }
 h2 {
-  color: #66bfbf;
+  color: #cc5200;
   font-size: 30px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
@@ -21,11 +21,11 @@ h2 {
   text-align: center;
 }
 h3 {
-  color: #11999e;
+  color: #cc5200;
   font-family: "Montserrat", sans-serif;
 }
 .top-image {
-  background-color: #e4f9f5;
+  background-color: #ffb380;
   position: relative;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -52,7 +52,7 @@ h3 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #ffb380;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -94,10 +94,11 @@ label {
 
 
 .middle-container {
-  margin: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
+  background-color: #fff0e6;
 }
 .bottom-container {
-  background-color: #66bfbf;
+  background-color: #ffb380;
   padding: 50px 0 20px;
 }
 .intro {
@@ -105,13 +106,17 @@ label {
   margin: auto;
 }
 p {
-  line-height: 2;
+  line-height: 1;
+  text-align: center;
+  font-size: .9rem;
+  color: #666666;
 }
 .hr-dotted {
-  border: dotted #d6ffff 6px;
+  border: dotted #ffa64d 6px;
   border-bottom: none;
   width: 4%;
   margin: 40px auto;
+
 }
 
 
@@ -152,5 +157,11 @@ a:hover {
   .card{
     margin: auto;
     width: 95%;
+    
   }
+  
+ .form-list {
+	list-style-type:none;
+  }
+
 
